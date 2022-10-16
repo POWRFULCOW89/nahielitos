@@ -1,53 +1,64 @@
 <head>
   <title>Nahielitos</title>
+  <link rel="stylesheet" href="nahielitos.css" />
 </head>
 
 <body>
-  <img src="imagenes/confetti.png" />
-  <h1>Nahielitos</h1>
-  <h2>Hielitos naturales</h2>
+  <main>
+    <img src="imagenes/confetti.png" />
+    <h1>Nahielitos</h1>
+    <h2>Hielitos naturales</h2>
 
-  <div>
-    <p>con agua <br />$8.00</p>
-    <p>con leche <br />$12.00</p>
-  </div>
+    <section id="precios-base" class="centrar">
+      <div class="capsula tema-naranja">
+        <p>con agua</p>
+        <p>$8.00</p>
+      </div>
+      <div class="capsula tema-rojo">
+        <p>con leche</p>
+        <p>$12.00</p>
+      </div>
+    </section>
 
-  <div>
-    <p>2 ingredientes - $4.00</p>
-    <p>3 ingredientes - $6.00</p>
-    <p>4 ingredientes - $8.00</p>
-  </div>
+    <section id="precios-extra" class="capsula tema-cian centrar">
+      <p>2 ingredientes - $4.00</p>
+      <p>3 ingredientes - $6.00</p>
+      <p>4 ingredientes - $8.00</p>
+    </section>
 
-  <h3>Ingredientes principales</h3>
+    <h3 class="capsula">Ingredientes principales</h3>
 
-  <section>
-    <div>
-      <img src="imagenes/" />
-      <p>fresa</p>
-    </div>
-    <div>
-      <img src="imagenes/coco.png" />
-      <p>coco</p>
-    </div>
-    <div>
-      <img src="imagenes/uvas.png" />
-      <p>uva</p>
-    </div>
-    <div>
-      <img src="imagenes/platano.png" />
-      <p>plátano</p>
-    </div>
-    <div>
-      <img src="imagenes/mango.png" />
-      <p>mango</p>
-    </div>
-    <div>
-      <img src="imagenes/manzana.png" />
-      <p>manzana</p>
-    </div>
-  </section>
+    <section id="ingredientes" class="centrar">
+      <div class="tema-rojo">
+        <img src="imagenes/fresa.jpg" />
+        <p>fresa</p>
+      </div>
+      <div class="tema-cian">
+        <img src="imagenes/coco.png" />
+        <p>coco</p>
+      </div>
+      <div class="tema-cian">
+        <img src="imagenes/uvas.png" />
+        <p>uva</p>
+      </div>
+      <div class="tema-amarillo">
+        <img src="imagenes/platano.png" />
+        <p>plátano</p>
+      </div>
+      <div class="tema-amarillo">
+        <img src="imagenes/mango.png" />
+        <p>mango</p>
+      </div>
+      <div class="tema-rojo">
+        <img src="imagenes/manzana.png" />
+        <p>manzana</p>
+      </div>
+    </section>
 
-  <a>¡Aparta tu hielito! <img src="imagenes/whatsapp.webp" /></a>
+    <a href="tel:+521234567890" id="boton-principal" class="centrar"
+      >¡Aparta tu hielito! <img src="imagenes/whatsapp.webp"
+    /></a>
 
-  <img src="imagenes/confetti.png" />
+    <img src="imagenes/confetti.png" />
+  </main>
 </body>
