@@ -1,0 +1,23 @@
+/*#region Template */
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
+:root {
+  --arena: #ffecdb;
+  --fuente-roja: #d57f76;
+  --fondo-rojo: #fec8c2;
+  --fuente-naranja: #ff914d;
+  --fondo-naranja: #ffd8c1;
+  --cian: #7abbaa;
+  --cian-claro: #b1dacf;
+  --dorado: #f4bd5e;
+  --amarillo: #ffdda3;
+  --amarillo-oscuro: #dba71a;
+  --crema: #fff2e7;
+}
+
+body {
+  margin: 0;
+  font-family: "Lilita One", cursive, sans-serif;
+}
+
+/*#endregion*/
