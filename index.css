@@ -3,10 +3,10 @@
 
 :root {
   --arena: #ffecdb;
-  --fuente-roja: #d57f76;
-  --fondo-rojo: #fec8c2;
-  --fuente-naranja: #ff914d;
-  --fondo-naranja: #ffd8c1;
+  --rojo-oscuro: #d57f76;
+  --rojo-claro: #fec8c2;
+  --naranja: #ff914d;
+  --naranja-claro: #ffd8c1;
   --cian: #7abbaa;
   --cian-claro: #b1dacf;
   --dorado: #f4bd5e;
@@ -20,63 +20,14 @@ body {
   font-family: "Lilita One", cursive, sans-serif;
 }
 
-/*#endregion*/
-
-body {
-  background-color: var(--crema);
-}
-
-img {
-  width: 100%;
-}
-
-/* mejorar img */
-div > img {
-  width:  40px ;
-}
-
-main {
-  width: 50%;
-  margin: auto;
-}
-
-h1, h2, h3 {
-  text-align: center;
-}
-
-h1 {
-  color: var(--dorado);
-  font-size: xx-large;
-}
-
-h2 {
-  color: var(--cian);
-  font-size:x-large;
-}
-
-h2, h3 {
-  letter-spacing: 4px;
-}
-
-h3 {
-  color: var(--dorado);
-  background-color: white;
-}
-
-.capsula {
-  border-radius: 24px;
-  padding: 16px;
-  text-align: center;
-}
-
 .tema-rojo {
-  color: var(--fuente-roja);
-  background-color: var(--fondo-rojo);
+  color: var(--roja-oscuro);
+  background-color: var(--rojo-claro);
 }
 
 .tema-naranja {
-  color: var(--fuente-naranja);
-  background-color: var(--fondo-naranja);
+  color: var(--naranja);
+  background-color: var(--naranja-claro);
 }
 
 .tema-cian {
@@ -89,63 +40,4 @@ h3 {
   background-color: var(--amarillo);
 }
 
-#precios-normales {
-  gap: 16px;
-
-  display: flex;
-  justify-content: center;
-
-  margin-bottom: 16px;
-}
-
-#precios-normales > .capsula > * {
-  margin: 0;
-}
-
-#precios-extra {
-  width: max-content;
-  margin: auto;
-}
-
-#sabores {
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: content-box;
-  gap: 10px;
-}
-
-#sabores > * {
-  flex-basis: 35%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-
-  margin: auto;
-}
-
-#boton-apartar {
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  margin: 20px auto;
-  padding: 24px;
-  border-radius: 24px;
-  background-color: var(--dorado);
-  color: white;
-  font-size: x-large;
-  transition: 0.5s all;
-  text-decoration: none;
-}
-
-#boton-apartar:hover {
-  transition: 0.5s all;
-  transform: scale(1.1);
-}
-
-#boton-apartar img{
-  width: 40px;
-}
+/*#endregion*/
